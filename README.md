@@ -3,7 +3,6 @@ This project was built as an exercise and example of the atomic design methodolo
 
 Link to slides: https://docs.google.com/presentation/d/1UXbwS36dnPONZCnlsCsbxYpJdMsrVn78pkajUZV00j8/edit#slide=id.g2a1658626f2_0_0
 
-___
 
 ## Available Scripts
 
