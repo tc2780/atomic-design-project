@@ -18,6 +18,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 Opens Storybook with a view of all the components in the project.
 
-Open [http://localhost:6060](http://localhost:6060) to view it in the browser.
-
 
