@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Head from './components/atoms/head/Head';
-import Bee from './components/organisms/bee/bee';
+import Head from './components/bee/atoms/head/Head';
+import Bee from './components/bee/organisms/bee/bee';
 
 function App() {
   return (
