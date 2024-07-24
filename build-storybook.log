@@ -1,0 +1,115 @@
+
+> my-app@0.1.0 build-storybook
+> storybook build --output-dir /var/folders/59/w32t1ljn60zc02qbztcs2m6r0000gn/T/chromatic--55659-65rgRUgmFvNt
+
+@storybook/cli v7.5.3
+
+info => Cleaning outputDir: /var/folders/59/w32t1ljn60zc02qbztcs2m6r0000gn/T/chromatic--55659-65rgRUgmFvNt
+info => Loading presets
+info => Building manager..
+info => Manager built (191 ms)
+info => Building preview..
+info => Copying static files: /Users/tracychow/repos/atomic-design-project/node_modules/@storybook/manager/static at /var/folders/59/w32t1ljn60zc02qbztcs2m6r0000gn/T/chromatic--55659-65rgRUgmFvNt/sb-common-assets
+WARN No story files found for the specified pattern: src/**/*.mdx
+info Addon-docs: using MDX2
+info => Loading Webpack configuration from `node_modules/react-scripts`
+info => Removing existing JavaScript and TypeScript rules.
+info => Modifying Create React App rules.
+info => Using default Webpack5 setup
+info => Copying static files: /Users/tracychow/repos/atomic-design-project/public at /var/folders/59/w32t1ljn60zc02qbztcs2m6r0000gn/T/chromatic--55659-65rgRUgmFvNt/
+WARN [eslint] 
+WARN src/components/bee/atoms/antenna/Antenna.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: antenna  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/atoms/antenna/Antenna.tsx
+WARN   Line 1:17:  'ComponentProps' is defined but never used  @typescript-eslint/no-unused-vars
+WARN   Line 1:33:  'HTMLProps' is defined but never used       @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/bee/atoms/head/Head.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: head  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/atoms/stinger/Stinger.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: stinger  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/atoms/torso/Torso.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: torso  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/atoms/wing/Wing.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: wing  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/atoms/wing/Wing.tsx
+WARN   Line 1:17:  'ComponentProps' is defined but never used  @typescript-eslint/no-unused-vars
+WARN   Line 1:33:  'HTMLProps' is defined but never used       @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/bee/molecules/body/body.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: body  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/molecules/body/body.tsx
+WARN   Line 3:8:  'Wing' is defined but never used     @typescript-eslint/no-unused-vars
+WARN   Line 6:8:  'Stinger' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/bee/molecules/wings/wings.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: wings  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/organisms/bee/bee.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: bee  storybook/prefer-pascal-case
+WARN 
+WARN src/components/bee/organisms/bee/bee.tsx
+WARN   Line 4:8:  'Head' is defined but never used   @typescript-eslint/no-unused-vars
+WARN   Line 5:8:  'Torso' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/blogPage/atoms/button/Button.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: button  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/atoms/card/Card.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: card  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/atoms/content/Content.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: content  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/atoms/input/Input.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: input  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/atoms/subtitle/Subtitle.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: subtitle  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/atoms/title/Title.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: title  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/molecules/submitField/submitField.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: submitField  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/organisms/post/post.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: post  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/organisms/post/post.tsx
+WARN   Line 2:8:  'styled' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/blogPage/organisms/subscribeForm/subscribeForm.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: subscribeForm  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/organisms/subscribeForm/subscribeForm.tsx
+WARN   Line 2:8:  'styled' is defined but never used  @typescript-eslint/no-unused-vars
+WARN 
+WARN src/components/blogPage/pages/homePage.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: homePage  storybook/prefer-pascal-case
+WARN 
+WARN src/components/blogPage/templates/homePage/homePage.stories.tsx
+WARN   Line 14:14:  The story should use PascalCase notation: homePage  storybook/prefer-pascal-case
+WARN 
+WARN 
+WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+WARN This can impact web performance.
+WARN Assets: 
+WARN   506.418d00a4.iframe.bundle.js (709 KiB)
+WARN   426.3f47a94b.iframe.bundle.js (583 KiB)
+WARN   114.bc687846.iframe.bundle.js (866 KiB)
+WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+WARN Entrypoints:
+WARN   main (884 KiB)
+WARN       runtime~main.4f4d5795.iframe.bundle.js
+WARN       114.bc687846.iframe.bundle.js
+WARN       main.7cd5dbca.iframe.bundle.js
+WARN 
+info => Preview built (27 s)
+info => Output directory: /var/folders/59/w32t1ljn60zc02qbztcs2m6r0000gn/T/chromatic--55659-65rgRUgmFvNt
